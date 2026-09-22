@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "lootrun-logger",
+  "version": "${version}",
+  "name": "Wynn Lootrun Logger",
+  "description": "Auto-captures Wynncraft lootrun run data via Wynntils and pushes it to a webhook.",
+  "authors": ["aaa"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.aaa.lootrunlogger.LootrunLoggerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "wynntils": "*"
+  }
+}
